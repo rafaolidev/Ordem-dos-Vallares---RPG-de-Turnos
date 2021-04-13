@@ -1,0 +1,65 @@
+
+
+//Classe dos personagens humanos//
+public static void main(String[] args) 
+	public class PersonagemHumano {
+		private String login;
+		private int forca;
+		private int defesa;
+		private int esquiva;
+		private int ataqueMagico;
+		private int defesaMagica;
+	
+///////////////////////////////
+//Métodos e funções da classe humana
+//////////////////////////////
+
+public String getLogin() {
+       return login;
+     }
+
+     public void setLogin(String login) {
+         this.login = login;
+     }
+
+     public int getforca() {
+         return forca;
+     }
+     public void setforca(int forca) {
+         this.forca = forca;
+     }
+
+     public int getdefesa() {
+         return defesa;
+     }
+
+     public void setDefesa(int defesa) {
+         this.defesa = defesa;
+     }
+     
+
+     public int getesquiva() {
+         return esquiva;
+     }
+
+     public void setesquiva(int esquiva) {
+         this.defesa = esquiva;
+     }
+     
+
+     public int getataqueMagico() {
+         return ataqueMagico;
+     }
+
+     public void setataqueMagico(int ataqueMagico) {
+         this.ataqueMagico = ataqueMagico;
+     }
+     
+
+     public int getdefesaMagica() {
+         return defesaMagica;
+     }
+
+     public void setDefesaMagica(int defesaMagica) {
+         this.defesaMagica = defesaMagica;
+     }
