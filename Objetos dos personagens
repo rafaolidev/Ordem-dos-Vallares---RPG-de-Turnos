@@ -9,6 +9,7 @@ public static void main(String[] args)
 		private int esquiva;
 		private int ataqueMagico;
 		private int defesaMagica;
+		private int vitalidade;
 	
 ///////////////////////////////
 //Métodos e funções da classe humana
@@ -63,3 +64,16 @@ public String getLogin() {
      public void setDefesaMagica(int defesaMagica) {
          this.defesaMagica = defesaMagica;
      }
+     
+     
+     public int getvitalidade(){
+     	return vitalidade;
+     }
+     
+     
+     public void setVitalidade (int vitalidade) {
+     	this.vitalidade = vitalidade;
+     }
+	 
+
+
