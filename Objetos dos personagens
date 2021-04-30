@@ -10,6 +10,12 @@ public static void main(String[] args)
 		private int ataqueMagico;
 		private int defesaMagica;
 		private int vitalidade;
+		private int vida;
+		private int destreza;
+		private int esquiva;
+		private int gold;
+		private int xp;
+		
 	
 ///////////////////////////////
 //Métodos e funções da classe humana
@@ -75,5 +81,28 @@ public String getLogin() {
      	this.vitalidade = vitalidade;
      }
 	 
+ 
+ 
+    	private int getdestreza (){
+      	return destreza;
+  }
+    
+public void setDestreza ( int destreza){
+     this.destreza = destreza;
+  }
+  
+private int getxp (){
+	return xp;
+}
 
+public void setXp (int xp){
+this.xp = xp;
+}
+
+private int gold() {
+	return gold;
+}
+
+public void setGold (int gold) {
+	this.gold = gold;
 
