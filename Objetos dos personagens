@@ -20,8 +20,6 @@ public static void main(String[] args)
 		private int vidaBonus;
 		private int destreza;
 		private int destrezaBonus;
-		private int esquiva;
-		private int esquivaBonus;
 		private int gold;
 		private int xp;
 		
