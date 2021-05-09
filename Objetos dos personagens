@@ -4,15 +4,24 @@
 public static void main(String[] args) 
 	public class PersonagemHumano {
 		private String login;
-		private int forca;
+		private int ataque;
+		private int ataqueBonus;
 		private int defesa;
+		private int defesaBonus;
 		private int esquiva;
+		private int esquivaBonus;
 		private int ataqueMagico;
+		private int ataqueMagicoBonus;
 		private int defesaMagica;
+		private int defesaMagicaBonus;
 		private int vitalidade;
+		private int vitalidadeBonus;
 		private int vida;
+		private int vidaBonus;
 		private int destreza;
+		private int destrezaBonus;
 		private int esquiva;
+		private int esquivaBonus;
 		private int gold;
 		private int xp;
 		
